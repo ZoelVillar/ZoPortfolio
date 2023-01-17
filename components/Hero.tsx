@@ -1,5 +1,6 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+import BackgroundCircles from "./BackgroundCircles";
 
 type Props = {};
 
@@ -15,11 +16,15 @@ export default function Hero({}: Props) {
     delaySpeed: 2000,
   });
   return (
-    <div>
+    <div
+      id="HeroDiv"
+      className="relative h-screen text-center overflow-hidden "
+    >
       <h1>
         <span>{text}</span>
-        <Cursor cursorColor="#22184E"></Cursor>
+        <Cursor cursorColor="white"></Cursor>
       </h1>
+      <BackgroundCircles />
     </div>
   );
 }
