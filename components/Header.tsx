@@ -6,7 +6,7 @@ type Props = {};
 
 export default function Hellooooo({}: Props) {
   return (
-    <header className="bg-[#252323cb] sticky bottom-2 top-2 p-4 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center shadow-xl rounded-xl">
+    <header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center ">
       <motion.div
         initial={{
           x: -500,
@@ -26,18 +26,18 @@ export default function Hellooooo({}: Props) {
         {/* Social Icons */}
         <SocialIcon
           url="https://www.linkedin.com/in/zoel-villar/"
-          fgColor="#F9F9FF"
+          fgColor="#22184E"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://github.com/ZoelVillar"
-          fgColor="#F9F9FF"
+          fgColor="#22184E"
           bgColor="transparent"
         />
         <SocialIcon
           network="whatsapp"
           url="https://wa.me/5491165673641"
-          fgColor="#F9F9FF"
+          fgColor="#22184E"
           bgColor="transparent"
         />
       </motion.div>
@@ -61,10 +61,10 @@ export default function Hellooooo({}: Props) {
         <SocialIcon
           className="cursor-pointer"
           network="email"
-          fgColor="#F9F9FF"
+          fgColor="#22184E"
           bgColor="transparent"
         />
-        <p className="uppercase hidden md:inline-flex text-sm text-[#F9F9FF]">
+        <p className="uppercase hidden md:inline-flex text-sm text-black">
           Get in touch
         </p>
       </motion.div>
